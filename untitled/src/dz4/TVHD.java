@@ -22,7 +22,7 @@ public class TVHD {
         if (number >= 1 && number <= channels.size()) {
             currentChannelIndex = number - 1;
         } else {
-            System.out.println("Invalid channel number.");
+            System.out.println("Неправильный номер");
         }
     }
 
